@@ -1,4 +1,4 @@
-# Shannon's Portfolio
+# Shannon Jaya | Portfolio
 
 ## Table of Contents
 
