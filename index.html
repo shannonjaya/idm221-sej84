@@ -11,11 +11,10 @@
 </head>
 <body>
    <header>
-    <div class="nav">
-        <div class="brand-container">
-          <div class="logo">
+      <div class="brand-container">
+        <div class="logo">
           <a href="index.html">
-            <svg class="white" width="50" height="50" fill="currentColor" viewBox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
+            <svg class="white" width="50" height="50" viewBox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1074_37842)">
                 <path d="M23.4555 1.85547C25.6709 1.85547 27.4718 3.86617 27.4718 6.33951V13.7239C27.4718 18.0834 26.3402 21.4643 24.0851 23.8753C21.8299 26.2864 18.8098 27.4964 15.0166 27.4964C11.2235 27.4964 8.09976 26.2597 5.74898 23.7775C4.64133 22.612 3.79664 21.2329 3.20695 19.6315C2.1232 16.6599 4.04368 13.4037 6.91243 13.4037H6.93633C8.63367 13.4037 10.1079 14.6225 10.7215 16.393C10.9127 16.9624 11.1677 17.4607 11.4865 17.8877C12.2674 18.9553 13.4069 19.4891 14.8971 19.4891C16.3873 19.4891 17.463 18.9731 18.228 17.95C18.993 16.9268 19.3755 15.5122 19.3755 13.7239V6.33951C19.3755 3.86617 21.1765 1.85547 23.3918 1.85547H23.4476H23.4555Z"/>
                 <path d="M38.3961 11.4641C39.1771 10.3965 40.3166 9.86269 41.8068 9.86269C43.2969 9.86269 44.3727 10.3787 45.1377 11.4018C45.9027 12.425 46.2852 13.8396 46.2852 15.6279V16.3307C44.9783 15.9126 43.5439 15.6902 41.9661 15.6902C38.1411 15.6902 35.0493 16.9268 32.6985 19.4091C32.4355 19.6849 32.1885 19.9696 31.9574 20.2721C29.7739 23.0924 31.6227 27.4875 34.9616 27.4875C36.2366 27.4875 37.4877 26.8469 38.1889 25.6636C38.2607 25.539 38.3404 25.4145 38.428 25.2988C39.2089 24.2312 40.3485 23.6974 41.8386 23.6974C43.3288 23.6974 44.4046 24.2134 45.1696 25.2365C45.2572 25.3611 45.3449 25.4857 45.4246 25.6191C46.1418 26.838 47.4327 27.4875 48.7396 27.4875H50.3413C52.5566 27.4875 54.3575 25.4768 54.3575 23.0034V15.6279C54.3575 11.2684 53.226 7.88757 50.9708 5.47651C48.7157 3.06545 45.6955 1.85547 41.9024 1.85547C38.1093 1.85547 34.9855 3.09214 32.6347 5.57438C31.5271 6.73987 30.6824 8.11889 30.0927 9.72033C29.0089 12.6919 30.9294 15.9482 33.7982 15.9482H33.8221C35.5194 15.9482 36.9936 14.7293 37.6072 12.9588C37.7985 12.3894 38.0535 11.8912 38.3722 11.4641H38.3961Z"/>
@@ -31,43 +30,97 @@
           </a>
         </div>
         <div class="brand"> 
-            <p class="top">Shannon Jaya</p>
-            <p class="bottom">Philadelphia, PA</p>
+        <p class="top">Shannon Jaya</p>
+        <p class="bottom">Philadelphia, PA</p>
         </div>  
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#work">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="creative.html">Creative</a></li>
+      </div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      <nav>
+          <ul>
+              <!-- <li><a href="#work">Work</a></li> -->
+              <li><a href="about.html">About</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="creative.html">Creative</a></li>
             </ul>
-        </div>
+            <span class="divider"></span>
+            <a class="contact" href="http://www.linkedin.com/in/shannonjaya"target="win_linkedin">
+                <svg class= "white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 50 40">
+                    <path d="M31.6667 5C32.5507 5 33.3986 5.35119 34.0237 5.97631C34.6488 6.60143 35 7.44928 35 8.33333V31.6667C35 32.5507 34.6488 33.3986 34.0237 34.0237C33.3986 34.6488 32.5507 35 31.6667 35H8.33333C7.44928 35 6.60143 34.6488 5.97631 34.0237C5.35119 33.3986 5 32.5507 5 31.6667V8.33333C5 7.44928 5.35119 6.60143 5.97631 5.97631C6.60143 5.35119 7.44928 5 8.33333 5H31.6667ZM30.8333 30.8333V22C30.8333 20.559 30.2609 19.177 29.2419 18.1581C28.223 17.1391 26.841 16.5667 25.4 16.5667C23.9833 16.5667 22.3333 17.4333 21.5333 18.7333V16.8833H16.8833V30.8333H21.5333V22.6167C21.5333 21.3333 22.5667 20.2833 23.85 20.2833C24.4688 20.2833 25.0623 20.5292 25.4999 20.9668C25.9375 21.4043 26.1833 21.9978 26.1833 22.6167V30.8333H30.8333ZM11.4667 14.2667C12.2093 14.2667 12.9215 13.9717 13.4466 13.4466C13.9717 12.9215 14.2667 12.2093 14.2667 11.4667C14.2667 9.91667 13.0167 8.65 11.4667 8.65C10.7196 8.65 10.0032 8.94675 9.47498 9.47498C8.94675 10.0032 8.65 10.7196 8.65 11.4667C8.65 13.0167 9.91667 14.2667 11.4667 14.2667ZM13.7833 30.8333V16.8833H9.16667V30.8333H13.7833Z"/>
+                  </svg>
+                <p>www.linkedin.com/in/shannonjaya</p>
+            </a>
+            <a class="contact" href="mailto:shannonjaya5@gmail.com">
+              <svg class="white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 50 40">
+                  <path d="M33.333 6.66675H6.66634C5.78229 6.66675 4.93444 7.01794 4.30932 7.64306C3.6842 8.26818 3.33301 9.11603 3.33301 10.0001V30.0001C3.33301 30.8841 3.6842 31.732 4.30932 32.3571C4.93444 32.9822 5.78229 33.3334 6.66634 33.3334H33.333C34.2171 33.3334 35.0649 32.9822 35.69 32.3571C36.3152 31.732 36.6663 30.8841 36.6663 30.0001V10.0001C36.6663 9.11603 36.3152 8.26818 35.69 7.64306C35.0649 7.01794 34.2171 6.66675 33.333 6.66675ZM33.333 13.7267L19.9997 21.8634L6.66634 13.7267V10.0001H33.333V13.7267Z" fill="#F8F5F3"/>
+              </svg>
+              <p>shannonjaya5@gmail.com</p>
+            </a>  
+        </nav>
         </div>
     </div>
-        <h1 class="hero">Building intuitive digital experiences.</h1>
    </header>
    <main>
+    <hero>
+      <h1 class="hero">Building <mark>intuitive</mark> digital experiences.</h1>
+    </hero>
+    <div class="case-study">
     <a href="inkwell.html">
-       <div class="case-study">
+        <div class="img-container">
+          <img alt="inkwell-home" height="auto" src="media/inkwell.avif" width="100%" />
+      </div>
+    </a>
+    <a href="inkwell.html">
             <h1>Inkwell</h1>
             <h2>WHERE STORIES FLOW IN INK</h2>
-            <p>An app that makes logging your favorite books and connected with fellow readers easier than ever.</p> 
-        </div> 
+            <p>An app that makes logging your favorite books and connected with fellow readers easier than ever.</p>  
+      </a>
+    <a href="inkwell.html">
+      <button type="button" class="button">
+        <h2>CHECK IT OUT</h2>
+      </button>
     </a>
-    <a href="balisuntours.html">
-        <div class="case-study">
-          <h1>Bali Sun Tours</h1>
-          <h2>YOUR SUNLIT ADVENTURE BEGINS HERE</h2>
-          <p>Newly improved navigation, information architecture, and visuals for you to plan your next island getaway.</p> 
+    </div>
+    
+    <span class="divider"></span>
+    <div class="case-study">
+      <a href="balisuntours.html">
+          <div class="img-container">
+            <img alt="balisuntours-home" height="auto" src="media/balisuntours.avif" width="100%" />
         </div>
-    </a> 
-    <a href="amazonwireframes.html">
+      </a>
+      <a href="balisuntours.html">
+        <h1>Bali Sun Tours</h1>
+        <h2>YOUR SUNLIT ADVENTURE BEGINS HERE</h2>
+        <p>Newly improved navigation, information architecture, and visuals for you to plan your next island getaway.</p> 
+      </a>
+      <a href="balisuntours.html">
+          <button type="button" class="button">
+            <h2>CHECK IT OUT</h2>
+          </button>
+        </a> 
+      </div>
+    <span class="divider"></span>
         <div class="case-study">
-        
-          <h1>Amazon Wireframes</h1>
+          <a href="amazonwireframes.html">
+            <div class="img-container">
+              <img alt="amazonwireframes-home" height="auto" src="media/amazonwireframes.avif" width="100%" />
+            </div>
+          </a>
+          <a href="amazonwireframes.html">
+            <h1>Amazon Wireframes</h1>
           <h2>ENDING SHOPPING CART ABANDONMENT</h2>
-          <p>Understanding user behavior and prototyping new features to boost consumer engagement.</p>   
+          <p>Understanding user behavior and prototyping new features to boost consumer engagement.</p>
+          </a> 
+          <a href="amazonwireframes.html">
+            <button type="button" class="button">
+              <h2>CHECK IT OUT</h2>
+            </button>
+          </a>  
         </div>
     </a>         
    </main>
@@ -75,7 +128,7 @@
     <div class="brand-container">
       <div class="logo">
         <a href="index.html">
-          <svg width="50" height="50" fill="currentColor" viewBox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
+          <svg class="white" width="50" height="50" fill="currentColor" viewBox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1074_37842)">
               <path d="M23.4555 1.85547C25.6709 1.85547 27.4718 3.86617 27.4718 6.33951V13.7239C27.4718 18.0834 26.3402 21.4643 24.0851 23.8753C21.8299 26.2864 18.8098 27.4964 15.0166 27.4964C11.2235 27.4964 8.09976 26.2597 5.74898 23.7775C4.64133 22.612 3.79664 21.2329 3.20695 19.6315C2.1232 16.6599 4.04368 13.4037 6.91243 13.4037H6.93633C8.63367 13.4037 10.1079 14.6225 10.7215 16.393C10.9127 16.9624 11.1677 17.4607 11.4865 17.8877C12.2674 18.9553 13.4069 19.4891 14.8971 19.4891C16.3873 19.4891 17.463 18.9731 18.228 17.95C18.993 16.9268 19.3755 15.5122 19.3755 13.7239V6.33951C19.3755 3.86617 21.1765 1.85547 23.3918 1.85547H23.4476H23.4555Z"/>
               <path d="M38.3961 11.4641C39.1771 10.3965 40.3166 9.86269 41.8068 9.86269C43.2969 9.86269 44.3727 10.3787 45.1377 11.4018C45.9027 12.425 46.2852 13.8396 46.2852 15.6279V16.3307C44.9783 15.9126 43.5439 15.6902 41.9661 15.6902C38.1411 15.6902 35.0493 16.9268 32.6985 19.4091C32.4355 19.6849 32.1885 19.9696 31.9574 20.2721C29.7739 23.0924 31.6227 27.4875 34.9616 27.4875C36.2366 27.4875 37.4877 26.8469 38.1889 25.6636C38.2607 25.539 38.3404 25.4145 38.428 25.2988C39.2089 24.2312 40.3485 23.6974 41.8386 23.6974C43.3288 23.6974 44.4046 24.2134 45.1696 25.2365C45.2572 25.3611 45.3449 25.4857 45.4246 25.6191C46.1418 26.838 47.4327 27.4875 48.7396 27.4875H50.3413C52.5566 27.4875 54.3575 25.4768 54.3575 23.0034V15.6279C54.3575 11.2684 53.226 7.88757 50.9708 5.47651C48.7157 3.06545 45.6955 1.85547 41.9024 1.85547C38.1093 1.85547 34.9855 3.09214 32.6347 5.57438C31.5271 6.73987 30.6824 8.11889 30.0927 9.72033C29.0089 12.6919 30.9294 15.9482 33.7982 15.9482H33.8221C35.5194 15.9482 36.9936 14.7293 37.6072 12.9588C37.7985 12.3894 38.0535 11.8912 38.3722 11.4641H38.3961Z"/>
@@ -95,13 +148,19 @@
           <p class="bottom">Thanks for visiting!</p>
       </div>  
     </div>
-    <a href="www.linkedin.com/in/shannonjaya">
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 50 50">
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+    <span class="divider"></span>
+    <a class="contact" href="http://www.linkedin.com/in/shannonjaya"target="win_linkedin">
+        <svg class= "white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 50 40">
+            <path d="M31.6667 5C32.5507 5 33.3986 5.35119 34.0237 5.97631C34.6488 6.60143 35 7.44928 35 8.33333V31.6667C35 32.5507 34.6488 33.3986 34.0237 34.0237C33.3986 34.6488 32.5507 35 31.6667 35H8.33333C7.44928 35 6.60143 34.6488 5.97631 34.0237C5.35119 33.3986 5 32.5507 5 31.6667V8.33333C5 7.44928 5.35119 6.60143 5.97631 5.97631C6.60143 5.35119 7.44928 5 8.33333 5H31.6667ZM30.8333 30.8333V22C30.8333 20.559 30.2609 19.177 29.2419 18.1581C28.223 17.1391 26.841 16.5667 25.4 16.5667C23.9833 16.5667 22.3333 17.4333 21.5333 18.7333V16.8833H16.8833V30.8333H21.5333V22.6167C21.5333 21.3333 22.5667 20.2833 23.85 20.2833C24.4688 20.2833 25.0623 20.5292 25.4999 20.9668C25.9375 21.4043 26.1833 21.9978 26.1833 22.6167V30.8333H30.8333ZM11.4667 14.2667C12.2093 14.2667 12.9215 13.9717 13.4466 13.4466C13.9717 12.9215 14.2667 12.2093 14.2667 11.4667C14.2667 9.91667 13.0167 8.65 11.4667 8.65C10.7196 8.65 10.0032 8.94675 9.47498 9.47498C8.94675 10.0032 8.65 10.7196 8.65 11.4667C8.65 13.0167 9.91667 14.2667 11.4667 14.2667ZM13.7833 30.8333V16.8833H9.16667V30.8333H13.7833Z"/>
           </svg>
         <p>www.linkedin.com/in/shannonjaya</p>
     </a>
-        <p>shannonjaya5@gmail.com</p>
+    <a class="contact" href="mailto:shannonjaya5@gmail.com">
+      <svg class="white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" viewBox="0 0 50 40">
+          <path d="M33.333 6.66675H6.66634C5.78229 6.66675 4.93444 7.01794 4.30932 7.64306C3.6842 8.26818 3.33301 9.11603 3.33301 10.0001V30.0001C3.33301 30.8841 3.6842 31.732 4.30932 32.3571C4.93444 32.9822 5.78229 33.3334 6.66634 33.3334H33.333C34.2171 33.3334 35.0649 32.9822 35.69 32.3571C36.3152 31.732 36.6663 30.8841 36.6663 30.0001V10.0001C36.6663 9.11603 36.3152 8.26818 35.69 7.64306C35.0649 7.01794 34.2171 6.66675 33.333 6.66675ZM33.333 13.7267L19.9997 21.8634L6.66634 13.7267V10.0001H33.333V13.7267Z" fill="#F8F5F3"/>
+      </svg>
+      <p>shannonjaya5@gmail.com</p>
+    </a>
    </footer>
 
 </body>
