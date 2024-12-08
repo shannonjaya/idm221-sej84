@@ -199,6 +199,13 @@ a.contact-nav {
     padding: var(--rhythm);
   }
 
+  footer.no-margin {
+    background-color: var(--foreground-color);
+    color: var(--background-color);
+    margin: 0;
+    padding: var(--rhythm);
+  }
+
   h1, h2, h3 {
     font-family: var(--font-sans);
   }
@@ -371,6 +378,7 @@ a.contact-nav {
   }
   .text-container p {
     margin-top: -1rem;
+    padding-bottom: var(--rhythm);
   }
 
   a.contact {
@@ -446,13 +454,13 @@ a.contact-nav {
   }
 
   video {
-    padding: 1rem;
+    margin-bottom: var(--rhythm);
+    padding: 0 var(--rhythm);
     width: 100%;
   }
 
-  p.italics {
+  p.sub {
     color: var(--color-overlay-dark);
-    /* font-style: italic; */
     font-size: 0.875rem;
     font-weight: 600;
     letter-spacing: 0.05rem;
