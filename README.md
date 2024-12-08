@@ -1,2 +1,2 @@
-# IDM221-sej84
+# idm221-sej84
  IDM 221 Portfolio 
